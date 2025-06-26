@@ -18,7 +18,6 @@ function(list_prepend LIST_NAME PREFIX)
     endforeach(element)
     set(${LIST_NAME} "${NEW_LIST}" PARENT_SCOPE)
 endfunction()
-
 # === Flutter Library ===
 # System-level dependencies.
 find_package(PkgConfig REQUIRED)
